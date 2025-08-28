@@ -8,7 +8,6 @@ int main(){
     uniform_int_distribution<> distr(1, 100);
     int number;
     number = distr(gen);
-    cout<<"The random no is: "<<number<<"\n";
     int guess;
     guess=0;
     while(!(guess ==number)){
