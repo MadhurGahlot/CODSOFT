@@ -2,7 +2,6 @@
 #include<random>
 #include<ctime>
 using namespace std;
-
 int main(){
     mt19937 gen(static_cast<unsigned int>(time(0)));
     uniform_int_distribution<> distr(1, 100);
